@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("https://thumbs.dreamstime.com/b/cards-green-felt-casino-table-background-two-aces-copy-space-center-78397207.jpg");
+    background-image: url("https://th.bing.com/th/id/OIP.-MFg0zdkClZrm9pZRcY5MQHaE6?pid=ImgDet&rs=1");
     background-size: cover;
     font-weight: bold;
     color: white;
@@ -10,21 +10,40 @@ body {
 
 h1 {
     color: goldenrod;
+    font-size: 50px;
 }
 
 #message-el {
+    font-size: 30px;
     font-style: italic;
     font-weight: 700;
 }
 
+#card-el {
+    font-size: 20px;
+}
+
+#sum-el {
+    font-size: 20px;
+}
+
+.button-el {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 button {
+    width: 300px;
     background-color: goldenrod;
     color: #016f32;
-    width: 150px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 5px;
     border-radius: 2px;
     font-weight: bold;
     border: none;
+    font-size: 25px;
 
 }
